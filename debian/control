@@ -1,11 +1,13 @@
 Source: twisted-words
 Section: python
 Priority: optional
-Maintainer: Matthias Klose <doko@debian.org>
-Uploaders: Free Ekanayaka <freee@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Matthias Klose <doko@debian.org>
+XSBC-Pexip-Original-Uploaders: Free Ekanayaka <freee@debian.org>
 Build-Depends: debhelper (>= 5.0.37.1), python-all (>= 2.6.6-9~), python-twisted-core (>= 11.1), patch
 XS-Python-Version: all
 Standards-Version: 3.9.2
+XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
 
 Package: python-twisted-words
 Architecture: all
